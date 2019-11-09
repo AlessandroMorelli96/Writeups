@@ -7,9 +7,9 @@ We get a key and a crypted file. Reading on the forum we get a hint by the Autho
 
 I used [this](https://www.cryptool.org/en/cto-cryptanalysis/n-gram-analysis) online tools.
 
-![Cryptool](https://github.com/AlessandroMorelli96/Writeups/blob/master/HackTheBox/images/11_01.png)
+![Cryptool](https://github.com/AlessandroMorelli96/Writeups/blob/master/HackTheBox/images/02_01.png)
 
-![Decryption](https://github.com/AlessandroMorelli96/WriteUps/blob/master/HackTheBox/images/11_02.png)
+![Decryption](https://github.com/AlessandroMorelli96/WriteUps/blob/master/HackTheBox/images/02_02.png)
 
 Now using a [this](https://www.semanticscholar.org/paper/Case-sensitive-letter-and-bigram-frequency-counts-Jones-Mewhort/722e190eed82279552905cb8ff8ac4967bacb04f#extracted) list we can do a sobstitution of all the charater.
 
