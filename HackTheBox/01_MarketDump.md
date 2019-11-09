@@ -1,6 +1,6 @@
 # MarketDump
 ## Challenge
-HackTheBox -> Challenges -> Web -> MarketDump
+HackTheBox -> Challenges -> Forensic -> MarketDump
 ## Tools
 Tool | Description
 ------- | -------
