@@ -27,11 +27,11 @@ As you can see ther are 2 for loop that are going to change every char of our st
 
 First it does a **xor 0x50** and **add 0x14**
 
-![1 for](https://github.com/AlessandroMorelli96/Writeups/blob/master/CSAW365/images/01_05)
+![1 for](https://github.com/AlessandroMorelli96/Writeups/blob/master/CSAW365/images/01_05.png)
 
 Then a **xor 0x10** and **add 0x09**
 
-![2 for](https://github.com/AlessandroMorelli96/Writeups/blob/master/CSAW365/images/01_06)
+![2 for](https://github.com/AlessandroMorelli96/Writeups/blob/master/CSAW365/images/01_06.png)
 
 Now we have to do the same operation but from the bottom to the start and reverse, so the **xor** remain the same, but **add** became **sub**.
 
