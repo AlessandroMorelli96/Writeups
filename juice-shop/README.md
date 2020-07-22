@@ -1,5 +1,5 @@
 # Juice Shop
-In this repository you will find the resolution of all the challenges of [Juice Shop](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/)
+In this repository you will find the resolution of some of the challenges of [Juice Shop](https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/)
 
 ⚠️REPOSITORY UNDER CONSTRUCTION⚠️
 

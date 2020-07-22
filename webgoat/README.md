@@ -1,5 +1,5 @@
 # WebGoat
-In this repository you will find the resolution of all the challenges of WebGoat
+In this repository you will find the resolution of all the challenges of [WebGoat](https://owasp.org/www-project-webgoat/)
 
 ⚠️REPOSITORY UNDER CONSTRUCTION⚠️
 

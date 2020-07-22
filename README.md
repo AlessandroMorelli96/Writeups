@@ -8,3 +8,4 @@ This is a collection of mine writeups of challenges that i done during ctf and f
 ## [X-MAS](https://github.com/AlessandroMorelli96/Writeups/blob/master/X-MAS)
 ## [Exploit Education](https://github.com/AlessandroMorelli96/Writeups/blob/master/exploitEducation)
 ## [Juice Shop](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop)
+## [Webgoat](https://github.com/AlessandroMorelli96/Writeups/tree/master/webgoat)
