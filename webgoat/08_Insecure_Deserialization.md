@@ -2,7 +2,7 @@
 ## Insecure Deserialization
 ### Number 5
 
-![Exercise](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_01.png)
+![Exercise](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_01.png)
 
 Clone [ysoserial](https://github.com/frohoff/ysoserial) and run:
 

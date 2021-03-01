@@ -1,7 +1,7 @@
 # WebGoat Injection Flows
 ## SQL Injection (intro)
 ### Number 7
-![Sql Injection n.7](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/01_01.png)
+![Sql Injection n.7](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/01_01.png)
 
 As you read in the previous part of this chapter we need to inject in the "Account Name" field something like this:
 ```
@@ -10,7 +10,7 @@ As you read in the previous part of this chapter we need to inject in the "Accou
 The " ' " close the " ' " in the sql command, then we make a statement that is always true. This way all the entries of the database will be print. At the end we add -- to comment the rest of the Sql command, so if there are other request, they will commented.
 
 ### Number 8
-![Sql Injection n.8](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/01_02.png)
+![Sql Injection n.8](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/01_02.png)
 
 As we read in this chapter we need to inject somthing like:
 ```
@@ -20,7 +20,7 @@ We need to pass a number because USERID is a number.
 
 ## SQL Injection (advanced)
 ### Number 3
-![Sql Injection (Advanced) n.3](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/01_03.png)
+![Sql Injection (Advanced) n.3](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/01_03.png)
 
 To resolve this exercise you can read this documentation that is very good to learn how to implement a union injection.
 
@@ -30,7 +30,7 @@ First of all we need to find the number of columns of the table we are using. To
 ```
 Now we can see the number and the type of columns.
 
-![Sql Injection (Advanced) n.3 Number and Type of Columns](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/01_04.png)
+![Sql Injection (Advanced) n.3 Number and Type of Columns](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/01_04.png)
 
 With this information we can do a union with "user_system_data" table.
 
@@ -40,11 +40,11 @@ To make this union, we have to use the same number of columns and type.
 ```
 And as we expected we achieve the solution.
 
-![Sql Injection (Advanced) n.3 Solution](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/01_05.png)
+![Sql Injection (Advanced) n.3 Solution](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/01_05.png)
 
 ### Number 5
 
-![Sql Injection (Advanced) n.5](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/01_06.png)
+![Sql Injection (Advanced) n.5](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/01_06.png)
 
 First we try to register the username tom, but already exist. we try to register: ```tom' or 1=1```, but already exist also this.
 
@@ -92,7 +92,7 @@ We have to run this script with Python3 then when it finish we delete the last "
 
 ## SQL Injection (mitigation)
 ### Number 8
-![Sql Injection (Mitigation) n.8](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/01_07.png)
+![Sql Injection (Mitigation) n.8](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/01_07.png)
 
 After some test we found that if we ask to order by ip, in the address path we have the state "column". We can use this to do samthing like this: " case (True) then … else … end ".
 

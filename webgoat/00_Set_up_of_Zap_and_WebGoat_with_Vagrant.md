@@ -24,17 +24,17 @@ Now we can chose our favorite web browser, personally I prefer Firefox, and go t
 http://127.0.0.1:8080/WebGoat/login
 ```
 
-![Login page of WebGoat](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/00_01.png)
+![Login page of WebGoat](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/00_01.png)
 
 The next passage is to setup ZAP to proxy. To do this we need to install a proxy controller for your Browser, if you have chosen Firefox install [FoxyProxy](https://addons.mozilla.org/it/firefox/addon/foxyproxy-standard/).
 
 Click on the icon of the extension -> Options -> Add, and follow like this step :
 
-![FoxyProxy set up](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/00_02.png)
+![FoxyProxy set up](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/00_02.png)
 
 Secondly, we should open Zap and go to -> Preferences -> Local Proxies, and complete like this:
 
-![ZAP Local Proxies set up](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/00_03.png)
+![ZAP Local Proxies set up](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/00_03.png)
 
 Go to Zap -> Preferences -> Dynamic SSL Certificate and click on Generate if you have never done it and finally click Save.
 
@@ -42,4 +42,4 @@ At this point open your Browser and add the certificate we have just saved. If y
 
 Finally to check if it works well select: “Use proxy Zap for all URLs…” from the FoxyProxy icon and go to the login page of WebGoat. You will see something like this:
 
-![Login Page and ZAP](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/00_04.png)
+![Login Page and ZAP](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/00_04.png)

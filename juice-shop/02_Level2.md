@@ -28,7 +28,7 @@ http://127.0.0.1:3000/#/track-result?id=%3Ciframe%20src%3D%22javascript:alert(%6
 ## Deprecated Interface
 
 ## Five Star Feedback
-To resolve this challenge you need to resolve the challenge [Admin Section](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/02_Level2.md#admin-section)
+To resolve this challenge you need to resolve the challenge [Admin Section](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/02_Level2.md#admin-section)
 
 Then go to the administration panel: "http://127.0.0.1:3000/#/administration"
 
@@ -54,7 +54,7 @@ password = Mr. N00dles
 ```
 
 ## Password Strength
-To resolve this i first resolved [User Credentials](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/04_Level4.md#User-Credentials), then with [crackstation](https://crackstation.net), i retrieved the password (admin123). Then you need to login as admin@juice-sh.op and admin123.
+To resolve this i first resolved [User Credentials](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/04_Level4.md#User-Credentials), then with [crackstation](https://crackstation.net), i retrieved the password (admin123). Then you need to login as admin@juice-sh.op and admin123.
 
 ## Security Policy
 

@@ -1,7 +1,7 @@
 # XML External Entities (XXE)
 ## XXE
 ### Number 3
-![XXE n.3](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/04_01.png)
+![XXE n.3](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/04_01.png)
 
 To resolve this exercise you can read also this [documentation](https://portswigger.net/web-security/xxe).
 
@@ -20,7 +20,7 @@ New one:
 <comment> <text>&root;</text></comment>
 ```
 ### Number 4
-![XXE n.4](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/04_02.png)
+![XXE n.4](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/04_02.png)
 
 Some documentation at this [link](https://blog.netspi.com/playing-content-type-xxe-json-endpoints/).
 
@@ -47,7 +47,7 @@ Host: localhost:8080
 ### Number 6
 This is not a very exercise, but it is important to do to learn how to resolve the number 7. We use the 7 part to test our solution.
 
-![XXE n.6](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/04_03.png)
+![XXE n.6](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/04_03.png)
 
 We need to create a dtd file and upload it on a web server (We can use WebWolf for hosting and download the resources from \<ip\>:\<port\>/files/\<username\>/\<filename\>).
 
@@ -68,7 +68,7 @@ Now we need to intercept a post request for the comment and modify it to match t
 ```
 Then we can go in WebWolf and see in the "Incoming Requests" there is a request with our parameters.
 ### Number 7
-![XXE n.7](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/04_04.png)
+![XXE n.7](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/04_04.png)
 
 In this case we need to find a file and then use is content as parameter for the request as we did in the 6 part.
 

@@ -10,7 +10,7 @@ We find robots.txt. Reading it we find that there is the page "/ftp", we downloa
 ## DOM XSS
 Use the XSS given in the search field.
 
-![DOM XSS](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/images/01_01.png)
+![DOM XSS](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/images/01_01.png)
 
 ## Error Handling
 To cause an error, you can try to do an SQL Injection to the login page, this will pop an error.
@@ -20,7 +20,7 @@ user = ' or 1=1 --
 password = asdasd
 ```
 
-![Error Handling](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/images/01_02.png)
+![Error Handling](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/images/01_02.png)
 
 ## Missing Encoding
 We need to go to "http://127.0.0.1:3000/#/photo-wall", as we can see there is an image that is not loaded.
@@ -32,7 +32,7 @@ After i have see a hint on internet i went to the method for the payments and af
 We can use some online tool like [this](https://beautifier.io) to make the code readable.
 We find the "redirect to"
 
-![Redirect to](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/images/01_03.png)
+![Redirect to](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/images/01_03.png)
 
 We just to go on one of this link.
 
@@ -61,14 +61,14 @@ Then you need to make readeble the file with a tool like [this](https://beautifi
 
 You will find this:
 
-![score-board](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/images/01_04.png)
+![score-board](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/images/01_04.png)
 
 Now visit the page:
 ```
 http://127.0.0.1:3000/#/score-board
 ```
 
-![Score Board](https://github.com/AlessandroMorelli96/Juice-Shop/blob/master/images/00_02.png)
+![Score Board](https://github.com/AlessandroMorelli96/Writeups/blob/master/juice-shop/images/00_02.png)
 
 ## Zero Stars
 We can use a tool like BurpSuite to change the request for a feedback and set the value of rating to 0

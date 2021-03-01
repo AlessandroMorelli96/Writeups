@@ -2,7 +2,7 @@
 ## Cross-Side Request Forgeries
 ### Number 3
 
-![N.3](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_01.png)
+![N.3](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_01.png)
 
 We need to analyze the request and create a new file (.html) that is like this:
 
@@ -26,7 +26,7 @@ print(requests.post('http://localhost:8080/WebGoat/csrf/basic-get-flag?csrf=fals
 
 ### Number 4
 
-![N.4](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_02.png)
+![N.4](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_02.png)
 
 We need to analyze the request and create a new file (.html) that is like this:
 
@@ -52,7 +52,7 @@ print(requests.post('http://localhost:8080/WebGoat/csrf/review', headers=headers
 
 ### Number 7
 
-![N.7](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_03.png)
+![N.7](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_03.png)
 
 We need to analyze the request and create a new file (.html) that is like this:
 
@@ -67,26 +67,26 @@ Open the page in a new tab with the Webgoat tab open and login.
 
 ### Number 8
 
-![N.8](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_04.png)
+![N.8](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_04.png)
 
 ## Server-Side Request Forgery
 
 ### Number 2
 
-![N.2](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_05.png)
+![N.2](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_05.png)
 
 We need to change the request
 
-![Original request](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_06.png)
+![Original request](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_06.png)
 
-![New request](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_07.png)
+![New request](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_07.png)
 
 ### Number 3
 
-![N.3](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_08.png)
+![N.3](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_08.png)
 
 We need to change the request
 
-![Original request](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_09.png)
+![Original request](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_09.png)
 
-![New request](https://github.com/AlessandroMorelli96/WebGoat/blob/master/images/08_2013_10.png)
+![New request](https://github.com/AlessandroMorelli96/Writeups/blob/master/webgoat/images/08_2013_10.png)
