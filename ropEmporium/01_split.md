@@ -73,13 +73,13 @@ Then we need the address of the function system, we can get it with pwntools.
 Now we need a function to overflow, we can use the function pwnme that give us a
 uverflow of 92 bytes in total.
 
-[Overflow](./images/01_00.png)
+![Overflow](./images/01_00.png)
 
 Then we need a to create our ROP, to do so we need a sequence of "pop rdi, ret"
 because we are in 64 bit. We can use the function "/a pop rdi, ret" or radare2,
 we get the address "0x004007c3"
 
-[ROP data](./images/01_01.png)
+![ROP data](./images/01_01.png)
 
 ## Script
 
