@@ -55,9 +55,9 @@ now to run our emulator run:
 
 ### Frida
 
-![Frida](https://frida.re/)
+[Frida](https://frida.re/)
 
-![Download](https://github.com/frida/frida/releases) the correct version for
+[Download](https://github.com/frida/frida/releases) the correct version for
 your device in my case `frida-server...-android-x86_64`, and copy to the device,
 than run it:
 
