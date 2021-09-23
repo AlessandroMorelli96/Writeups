@@ -8,7 +8,7 @@ apktool d UnCrackable-Level3.apk -o UnCrackable-Level3
 ```
 
 Then to read the code in a confortable way we can use
-![jadx](https://github.com/skylot/jadx) and read the content of the apk:
+[jadx](https://github.com/skylot/jadx) and read the content of the apk:
 
 ```bash
 jadx-gui UnCrackable-Level3.apk
@@ -43,7 +43,7 @@ than there is a cycle through all the char and do a compare between the input
 and the xor between a variable saved on a specific location and the result of
 function.
 
-![CodeCheck](/images/1.png)
+![CodeCheck](./images/1.png)
 
 Reading the code of the application with jadx-gui we can read in the
 MainActivity that a variable called `xorkey` that contains a string of 24 char
@@ -52,7 +52,7 @@ is passed to a native function named init.
 This function save the content of the parameter to a location in memory that is
 the same of the CodeCheck function.
 
-![init](/images/2.png)
+![init](./images/2.png)
 
 Now we need the content of the return of the function in the CodeCheck
 function. In my case this function is called `FUN_00010fa0`. This is a very long
@@ -60,7 +60,7 @@ function, but we know that the result is saved in the variable that is passed as
 pointer, so at the end we find that key, it is divided in 2 part the first is
 loaded from a index and the other is moved.
 
-![FUN_00010fa0](/images/3.png)
+![FUN_00010fa0](./images/3.png)
 
 Now to get the flag we just need to do the xor between the two key:
 
