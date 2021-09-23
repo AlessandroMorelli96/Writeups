@@ -8,7 +8,7 @@ apktool d UnCrackable-Level2.apk -o UnCrackable-Level2
 ```
 
 Then to read the code in a confortable way we can use
-![jadx](https://github.com/skylot/jadx) and read the content of the apk:
+[jadx](https://github.com/skylot/jadx) and read the content of the apk:
 
 ```bash
 mv UnCrackable2.apk UnCrackable2.zip
@@ -68,7 +68,7 @@ apksigner sign -v --in UnCrackable-Level2-mine.apk --v2-signing-enabled --ks <ke
 adb install UnCrackable-Level2-mine.apk
 ```
 
-As with the first challenge to find the flag we use ![Frida](https://frida.re/)
+As with the first challenge to find the flag we use [Frida](https://frida.re/)
 and this is the script to find the flag:
 
 ```javascript
