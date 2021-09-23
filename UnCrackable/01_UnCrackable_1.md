@@ -103,7 +103,7 @@ Now if we run the app we can insert txt in input and verify our input.
 
 ## Pass the Verification
 
-To do this we use ![Frida](https://frida.re/), and this is the javascript code
+To do this we use [Frida](https://frida.re/), and this is the javascript code
 to use:
 
 ```javascript
