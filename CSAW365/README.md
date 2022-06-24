@@ -6,4 +6,4 @@ Solution of CSAW365 Challenges
 ## Challenges
 
 ### Reversing
-* [Rock](https://github.com/AlessandroMorelli96/Writeups/blob/master/CSAW365/01_Rock.md)
+* [Rock](./01_Rock.md)
